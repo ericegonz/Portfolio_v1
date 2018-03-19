@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
               },
               "repulse": {
                   "distance": 300,
-                  "duration": 0.4
+                  "duration": 0.2
               },
               "push": {
                   "particles_nb": 4
