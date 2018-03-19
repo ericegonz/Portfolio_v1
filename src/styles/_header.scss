@@ -27,6 +27,9 @@
   margin: 0 auto;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  @media only screen and (max-width:$cut){
+    top: 40%;
+  }
   .site-title {
     font-size: 50px;
     display: block;
@@ -46,6 +49,12 @@
     @media only screen and (min-width:$cut){
       font-size: 40px;
       line-height: 1;
+    }
+  }
+
+  .img{
+    @media only screen and (min-width:$cut){
+      margin-top: -110px;
     }
   }
 }
