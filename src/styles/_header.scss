@@ -31,17 +31,17 @@
     top: 40%;
   }
   .site-title {
-    font-size: 50px;
+    font-size: 35px;
     display: block;
     line-height: 1;
     color: #FFF;
     @media only screen and (min-width:$cut){
       margin: 0;
-      font-size: 100px;
+      font-size: 60px;
     }
   }
   .site-description {
-    font-size: 30px;
+    font-size: 20px;
     display: block;
     line-height: .7;
     color: #FFF;
